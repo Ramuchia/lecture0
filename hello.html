@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My Webpage!</title>
-	</head>
+		<title>Size!</title>
+		<style>
+			#top {
+				
+				position: absolute;
+  				left: 50px;
+  				top: 50px;
+  				font-family: Algerian, sans-serif;
+				font-size: 30px;
+				font-weight: bold; 
+				background-color:green;
+				width:	50%;
+				border: 5px solid blue;
+				text-align: center;
+				line-height:30px;
+				}
+			#middle {
+				position: absolute;
+  				left: 50px;
+  				top: 150px;
+				font-family: Arial, sans-serif;
+				font-size: 20px;
+				font-weight: normal; 
+				background-color:yellow;
+				border: 5px solid blue;
+				text-align: right;
+				line-height:30px;
+				}	
+			#bottom {
+				position: absolute;
+  				left: 50px;
+  				top: 300px;
+				font-family: Arial, sans-serif;
+				font-size: 12px;
+				font-weight: normal; 
+				background-color:yellow;
+				border: 5px solid blue;
+				text-align: right;
+				line-height:20px;
+				}	
+				
+		</style>
+	</head>	
 	<body>
-		Hello, Word! Hi my family too!
+		<div id="top">
+			Hello <span class="name">World</span>, This is my web page.
+		</div>
+		<div id="middle">
+			this is the <span class="name">middle</span> of my web page.
+		</div>
+		<form>
+			<input type="text" placeholder="Enter your full name" name="name">
+			<button>And push the Button! Good luck </button>
+		</form>
+		<div id="bottom">
+			this is the <span class="name">bottom</span> of my web page.
+		</div>
+		
 	</body>
 </html>
